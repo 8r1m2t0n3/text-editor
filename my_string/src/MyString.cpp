@@ -1,4 +1,4 @@
-#include "MyString.h"
+#include "my_string/include/MyString.h"
 
 MyString::MyString() {
 	str = nullptr;

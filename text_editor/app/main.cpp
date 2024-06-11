@@ -1,4 +1,4 @@
-﻿#include "MVC.h"
+﻿#include "text_editor/include/MVC.h"
 
 int main() {
 	View view;

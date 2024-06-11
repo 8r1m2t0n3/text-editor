@@ -1,4 +1,4 @@
-#include "MVC.h"
+#include "text_editor/include/MVC.h"
 #include <windows.h>
 #include <cmath>
 
