@@ -1,7 +1,7 @@
-#include "text_editor/include/model.h"
-#include "text_editor/include/editor-constants.h"
+#include "text-editor/include/model.h"
+#include "text-editor/include/editor_constants.h"
 #include <iostream>
-#include "curses-wrapped.h"
+#include "curses_wrapped.h"
 #include <windows.h>
 #include <utility>
 #include <fstream>

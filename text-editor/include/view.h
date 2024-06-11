@@ -1,9 +1,9 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-#include "curses-wrapped.h"
-#include "text_editor/include/model.h"
-#include "my_string/include/my-string.h"
+#include "curses_wrapped.h"
+#include "text-editor/include/model.h"
+#include "my-string/include/my_string.h"
 
 class View {
 private:

@@ -1,8 +1,8 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
 
-#include "text_editor/include/model.h"
-#include "text_editor/include/view.h"
+#include "text-editor/include/model.h"
+#include "text-editor/include/view.h"
 
 class Controller {
 private:
