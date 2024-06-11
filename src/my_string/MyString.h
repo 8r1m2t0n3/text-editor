@@ -23,7 +23,6 @@ public:
 	friend bool operator >=(const MyString& str1, const MyString& str2);
 	friend bool operator <=(const MyString& str2, const MyString& str1);
 	friend bool operator !=(const MyString& str1, const MyString& str2);
-	//char& operator [](int ind);
 	char operator [](int ind);
 	char* c_str() const;
 	char* data() const;
