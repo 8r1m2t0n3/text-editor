@@ -1,5 +1,5 @@
-#include "text_editor/include/controller.h"
-#include "text_editor/include/editor-constants.h"
+#include "text-editor/include/controller.h"
+#include "text-editor/include/editor_constants.h"
 #include <synchapi.h>
 using namespace std;
 

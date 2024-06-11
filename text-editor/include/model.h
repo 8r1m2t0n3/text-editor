@@ -1,7 +1,7 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include "my_string/include/my-string.h"
+#include "my-string/include/my_string.h"
 #include <vector>
 
 class Model {
