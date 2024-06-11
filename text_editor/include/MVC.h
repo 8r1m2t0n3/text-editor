@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "CursesWrapped.h"
-#include "my_string/include/MyString.h"
+#include "curses_wrapped.h"
+#include "my_string/include/my_string.h"
 #include <windows.h>
 #include <iostream>
 #include <utility>

@@ -1,4 +1,4 @@
-#include "text_editor/include/MVC.h"
+#include "text_editor/include/mvc.h"
 
 CursesWrapper _curses_funcs;
 WINDOW* _textEditor;
