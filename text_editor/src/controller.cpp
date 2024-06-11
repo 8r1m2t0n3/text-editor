@@ -1,4 +1,7 @@
-#include "text_editor/include/mvc.h"
+#include "text_editor/include/controller.h"
+#include "text_editor/include/editor-constants.h"
+#include <synchapi.h>
+using namespace std;
 
 Controller::Controller(Model& model, View& view) {
 	this->model = model;

@@ -1,6 +1,7 @@
+#ifndef MY_STRING_H
+#define MY_STRING_H
+
 #include <string>
-#include <iostream>
-#include <string.h>
 
 class MyString {
 public:
@@ -60,3 +61,5 @@ private:
 	int len;
 	int cap;
 };
+
+#endif

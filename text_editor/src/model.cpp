@@ -1,4 +1,12 @@
-#include "text_editor/include/mvc.h"
+#include "text_editor/include/model.h"
+#include "text_editor/include/editor-constants.h"
+#include <iostream>
+#include "curses-wrapped.h"
+#include <windows.h>
+#include <utility>
+#include <fstream>
+#include <sstream>
+using namespace std;
 
 CursesWrapper _curses_funcs;
 WINDOW* _textEditor;
