@@ -1,6 +1,12 @@
 project(my_string)
-add_executable(${PROJECT_NAME} main.cpp)
 
-add_library(my_string_library STATIC 
-    my_string/src/my-string.cpp
+include_directories(include)
+
+set(SOURCES src/my_string.cpp)
+
+add_library(${PROJECT_NAME} STATIC ${SOURCES})
+add_library(sub::lib1 ALIAS ${PROJECT_NAME})
+
+target_include_directories(${PROJECT_NAME}
+    PUBLIC ${PROJECT_SOURCE_DIR}/include
 )

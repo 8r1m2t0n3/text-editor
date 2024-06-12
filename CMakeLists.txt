@@ -1,3 +1,10 @@
-cmake_minimum_required(VERSION 3.10)
-project(text_editor)
-add_executable(${PROJECT_NAME} main.cpp)
+cmake_minimum_required (VERSION 3.5)
+
+project(TextEditor)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_subdirectory(my-string)
+add_subdirectory(pdcurses)
+add_subdirectory(main)
