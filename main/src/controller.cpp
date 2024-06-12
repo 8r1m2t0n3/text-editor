@@ -1,4 +1,7 @@
-#include "text_editor/include/mvc.h"
+#include "controller.h"
+#include "editor_constants.h"
+#include <windows.h>
+using namespace std;
 
 Controller::Controller(Model& model, View& view) {
 	this->model = model;

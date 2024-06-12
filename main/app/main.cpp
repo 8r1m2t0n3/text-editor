@@ -1,4 +1,6 @@
-﻿#include "text_editor/include/mvc.h"
+﻿#include "view.h"
+#include "model.h"
+#include "controller.h"
 
 int main() {
 	View view;

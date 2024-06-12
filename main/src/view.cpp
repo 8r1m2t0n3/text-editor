@@ -1,6 +1,8 @@
-#include "text_editor/include/mvc.h"
+#include "view.h"
+#include "editor_constants.h"
 #include <windows.h>
 #include <cmath>
+using namespace std;
 
 extern CursesWrapper _curses_funcs;
 extern WINDOW* _textEditor;
