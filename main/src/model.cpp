@@ -1,5 +1,5 @@
-#include "text-editor/include/model.h"
-#include "text-editor/include/editor_constants.h"
+#include "model.h"
+#include "editor_constants.h"
 #include <iostream>
 #include "curses_wrapped.h"
 #include <windows.h>

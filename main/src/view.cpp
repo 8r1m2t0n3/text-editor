@@ -1,5 +1,5 @@
-#include "text-editor/include/view.h"
-#include "text-editor/include/editor_constants.h"
+#include "view.h"
+#include "editor_constants.h"
 #include <windows.h>
 #include <cmath>
 using namespace std;

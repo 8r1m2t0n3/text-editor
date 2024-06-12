@@ -1,4 +1,4 @@
-#include "pdcurses/include/curses_wrapped.h"
+#include "curses_wrapped.h"
 
 WINDOW* CursesWrapper::_initscr() {
     stdscr = initscr();

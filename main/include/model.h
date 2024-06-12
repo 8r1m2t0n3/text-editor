@@ -1,7 +1,7 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include "my-string/include/my_string.h"
+#include "my_string.h"
 #include <vector>
 
 class Model {
@@ -12,14 +12,14 @@ private:
 	int cur_x;
 	int cur_y;
 	MyString path;
-	vector<MyString> text;
+	std::vector<MyString> text;
 	bool on_text_flag;
 	MyString buffer;
 public:
 	MyString get_path();
 	void set_path(MyString path);
-	pair<bool, MyString> is_path_valid(MyString path);
-	pair<bool, MyString> is_command_valid(MyString path);
+	std::pair<bool, MyString> is_path_valid(MyString path);
+	std::pair<bool, MyString> is_command_valid(MyString path);
 	void save_cur_x();
 	void save_cur_y();
 	void set_save_x(int xNew);
@@ -36,9 +36,9 @@ public:
 	void close_file();
 	void print_in_file();
 	void save_text_from_file();
-	vector<MyString> get_text();
-	pair<int, int> catch_key_event();
-	pair<int, int> catch_key_or_mouse_event();
+	std::vector<MyString> get_text();
+	std::pair<int, int> catch_key_event();
+	std::pair<int, int> catch_key_or_mouse_event();
 	void increment_cur_x();
 	void increment_cur_y();
 	void decrement_cur_x();
@@ -55,8 +55,8 @@ public:
 	void add_prev_line_to_cur_line(int cur_line_num);
 	void set_mode(int mode);
 	int get_mode();
-	vector<MyString> words_in_string(MyString str);
-	pair<int, int> find_substr_in_text(MyString str); // x, y
+	std::vector<MyString> words_in_string(MyString str);
+	std::pair<int, int> find_substr_in_text(MyString str); // x, y
 	void delete_word_on_pos(int xPos, int yPos);
 	void save_word_in_buffer_from_pos(int xPos, int yPos);
 	void save_line_in_buffer_from_pos(int yPos);

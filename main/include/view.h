@@ -2,8 +2,8 @@
 #define VIEW_H
 
 #include "curses_wrapped.h"
-#include "text-editor/include/model.h"
-#include "my-string/include/my_string.h"
+#include "my_string.h"
+#include "model.h"
 
 class View {
 private:

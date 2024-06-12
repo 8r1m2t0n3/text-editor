@@ -1,6 +1,6 @@
-#include "text-editor/include/controller.h"
-#include "text-editor/include/editor_constants.h"
-#include <synchapi.h>
+#include "controller.h"
+#include "editor_constants.h"
+#include <windows.h>
 using namespace std;
 
 Controller::Controller(Model& model, View& view) {
